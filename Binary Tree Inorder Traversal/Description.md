@@ -17,7 +17,7 @@ An **inorder traversal** visits nodes in the following order:
 
 ### **Example 1**
 
-![Inorder Traversal Example 1](https://assets.leetcode.com/uploads/2024/08/29/tree_1.png)
+![Inorder Traversal Example 1](https://assets.leetcode.com/uploads/2024/08/29/screenshot-2024-08-29-202743.png)
 
 > **Input:** `root = [1, null, 2, 3]`  
 > **Output:** `[1, 3, 2]`
