@@ -26,7 +26,7 @@ Given the `root` of a binary tree, return the **preorder traversal** of its node
 
 **Example 2:**
 
-![Preorder Traversal Example 1](https://assets.leetcode.com/uploads/2024/08/29/tree_2.png)
+![Preorder Traversal Example 2](https://assets.leetcode.com/uploads/2024/08/29/tree_2.png)
 
 > **Input:** `root = [1,2,3,4,5,null,8,null,null,6,7,9]`  
 > **Output:** `[1,2,4,5,6,7,3,8,9]`
