@@ -25,6 +25,7 @@ You have `n` coins and you want to build a staircase where the $i^{th}$ row has 
 > Row 3: 3 coins (Total 6) -> We only have 5 coins, so row 3 is incomplete. Return 2.
 
 **Example 2:**
+
 ![example_2](https://assets.leetcode.com/uploads/2021/04/09/arrangecoins2-grid.jpg);
 
 > **Input:** `n = 8`  
