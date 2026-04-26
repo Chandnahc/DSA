@@ -22,13 +22,17 @@ The table tracks player login activity. `(player_id, event_date)` is the primary
 
 ### **Example**
 
-**Input:** | player_id | device_id | event_date | games_played |
+**Input:** 
+
+| player_id | device_id | event_date | games_played |
 | :-------- | :-------- | :--------- | :----------- |
 | 1         | 2         | 2016-03-01 | 5            |
 | 1         | 2         | 2016-05-02 | 6            |
 | 3         | 1         | 2016-03-02 | 0            |
 
-**Output:** | player_id | first_login |
+**Output:** 
+
+| player_id | first_login |
 | :-------- | :---------- |
 | 1         | 2016-03-01  |
 | 3         | 2016-03-02  |
