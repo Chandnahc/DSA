@@ -16,11 +16,16 @@ The **maximum depth** is the number of nodes along the longest path from the roo
 
 **Example 1:**
 
+![example_1](https://assets.leetcode.com/uploads/2018/10/12/narytreeexample.png)
+
 > **Input:** `root = [1,null,3,2,4,null,5,6]`  
 > **Output:** `3`  
 > **Explanation:** The longest path is 1 -> 3 -> 5 (or 6), which contains 3 nodes.
 
 **Example 2:**
+
+![example_2](https://assets.leetcode.com/uploads/2019/11/08/sample_4_964.png)
+
 > **Input:** `root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]`  
 > **Output:** `5`
 
