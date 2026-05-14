@@ -23,6 +23,9 @@ Return the merged tree.
 ### **Examples**
 
 **Example 1:**
+
+![example_1](https://assets.leetcode.com/uploads/2021/02/05/merge.jpg)
+
 > **Input:** `root1 = [1,3,2,5]`, `root2 = [2,1,3,null,4,null,7]`  
 > **Output:** `[3,4,5,5,4,null,7]`
 
