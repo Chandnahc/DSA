@@ -23,7 +23,8 @@ Return *the number of pawns the white rook is attacking*.
 
 ![example_1](https://assets.leetcode.com/uploads/2019/02/20/1253_example_1_improved.PNG)
 
-**Input:** ```text
+**Input:** 
+```text
 board = [
   [".",".",".",".",".",".",".","."],
   [".",".",".","p",".",".",".","."],
@@ -42,7 +43,8 @@ board = [
 
 ![example_2](https://assets.leetcode.com/uploads/2019/02/19/1253_example_2_improved.PNG)
 
-**Input:** ```text
+**Input:** 
+```text
 board = [
   [".",".",".",".",".",".",".","."],
   [".","p","p","p","p","p",".","."],
@@ -61,7 +63,8 @@ board = [
 
 ![example_3](https://assets.leetcode.com/uploads/2019/02/20/1253_example_3_improved.PNG)
 
-**Input:** ```text
+**Input:**
+```text
 board = [
   [".",".",".",".",".",".",".","."],
   [".",".",".","p",".",".",".","."],
