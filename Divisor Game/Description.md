@@ -1,36 +1,38 @@
-# 1022. Sum of Root To Leaf Binary Numbers
+# 1025. Divisor Game
 
 **Difficulty:** Easy  
-**Topics:** Tree, Depth-First Search, Binary Tree  
+**Topics:** Math, Dynamic Programming, Brainteaser, Game Theory  
 
 ---
 
 ## Problem Description
 
-You are given the root of a binary tree where each node has a value `0` or `1`. Each root-to-leaf path represents a binary number starting with the most significant bit.
+Alice and Bob take turns playing a game, with Alice starting first.
 
-* For example, if the path is `0 -> 1 -> 1 -> 0 -> 1`, then this could represent `01101` in binary, which is `13`.
+Initially, there is a number `n` on the chalkboard. On each player's turn, that player makes a move consisting of:
+* Choosing any integer `x` with `0 < x < n` and `n % x == 0`.
+* Replacing the number `n` on the chalkboard with `n - x`.
 
-For all leaves in the tree, consider the numbers represented by the path from the root to that leaf. Return *the sum of these numbers*.
+Also, if a player cannot make a move, they lose the game.
 
-The test cases are generated so that the answer fits in a **32-bit** integer.
+Return `true` *if and only if Alice wins the game, assuming both players play optimally*.
 
 ---
 
 ## Examples
 
 ### Example 1
-**Input:** `root = [1,0,1,0,1,0,1]`  
-**Output:** `22`  
-**Explanation:** `(100) + (101) + (110) + (111) = 4 + 5 + 6 + 7 = 22`
+**Input:** `n = 2`  
+**Output:** `true`  
+**Explanation:** Alice chooses 1, and Bob has no more moves.
 
 ### Example 2
-**Input:** `root = [0]`  
-**Output:** `0`  
+**Input:** `n = 3`  
+**Output:** `false`  
+**Explanation:** Alice chooses 1, Bob chooses 1, and Alice has no more moves.
 
 ---
 
 ## Constraints
 
-* The number of nodes in the tree is in the range `[1, 1000]`.
-* `Node.val` is `0` or `1`.
+* `1 <= n <= 1000`
