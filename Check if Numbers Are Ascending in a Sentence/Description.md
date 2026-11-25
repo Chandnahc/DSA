@@ -20,12 +20,18 @@ Return *`true` if so, or `false` otherwise*.
 ## Examples
 
 ### Example 1
+
+![example_1](https://assets.leetcode.com/uploads/2021/09/30/example1.png)
+
 **Input:** `s = "1 box has 3 blue 4 red 6 green and 12 yellow marbles"`  
 **Output:** `true`  
 **Explanation:** The numbers in `s` are: 1, 3, 4, 6, 12.  
 They are strictly increasing from left to right: $1 < 3 < 4 < 6 < 12$.
 
 ### Example 2
+
+![example_2](https://assets.leetcode.com/uploads/2021/09/30/example3.png)
+
 **Input:** `s = "hello world 5 x 5"`  
 **Output:** `false`  
 **Explanation:** The numbers in `s` are: 5, 5. They are not strictly increasing.
